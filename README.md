@@ -9,7 +9,7 @@ npm install tunk-delay -S
 
 import {sleep, until, delay} from 'tunk-delay';
 
-async () => {
+(async () => {
   // sleep
   await sleep(1000);
   alert('hello sleep!');
@@ -28,6 +28,6 @@ async () => {
     alert('hello delay!');
   }
   
-}
+})();
 
 ````
