@@ -31,3 +31,33 @@ import {sleep, until, delay} from 'tunk-delay';
 })();
 
 ````
+
+###use with tunk
+````javascript
+
+import tunk, {create, action} from 'tunk';
+import delay from 'tunk-delay';
+
+tunk.mixin(delay);
+@create
+export default class helloDelay{
+  constructor(){
+    ...
+  }
+  @action
+  async hello(){
+    // sleep
+    await this.sleep(1000);
+    alert('hello sleep!');
+    ...
+  }
+}
+````
+
+
+
+
+
+
+
+
