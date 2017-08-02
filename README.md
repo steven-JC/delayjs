@@ -22,7 +22,7 @@ import {sleep, until, delay} from 'tunk-delay';
   }, 100);
   alert('hello until!');
   
-  // delay，推迟执行, 在设置的时间段内重复调用delay都会返回false，直到最后一次到达时间点后nextStick返回true；
+  // delay，推迟执行, 在设置的时间段内重复调用传入相同delayId的delay函数都会返回false，直到最后一次到达时间点后nextStick返回true；
   const nextStick = await delay('delayId', 1000);
   if(nextStick) {
     alert('hello delay!');
