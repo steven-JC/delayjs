@@ -1,0 +1,12 @@
+{
+  "name": "tunk-delay",
+  "version": "0.1.1",
+  "description": "tunk-delay",
+  "main": "tunk-delay.js",
+  "repository": {
+    "type": "git",
+    "url": "steven-JC/tunk-delay"
+  },
+  "author": "steven-JC",
+  "license": "MIT"
+}
