@@ -2,12 +2,12 @@
 Sleep, Until and some other function to delay in context, asynchronously with Promise, async/await
 
 ```
-npm install tunk-delay -S
+npm install delayjs -S
 ```
 ## Usage
 ````javascript
 
-import {sleep, until, delay} from 'tunk-delay';
+import {sleep, until, delay} from 'delayjs';
 
 (async () => {
   // sleep

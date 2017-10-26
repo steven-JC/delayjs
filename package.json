@@ -1,11 +1,11 @@
 {
-  "name": "tunk-delay",
+  "name": "delayjs",
   "version": "0.1.1",
-  "description": "tunk-delay",
-  "main": "tunk-delay.js",
+  "description": "delayjs",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "steven-JC/tunk-delay"
+    "url": "steven-JC/delayjs"
   },
   "author": "steven-JC",
   "license": "MIT"
