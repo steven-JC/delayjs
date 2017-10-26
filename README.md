@@ -1,4 +1,4 @@
-# tunk-delay
+# delayjs
 Sleep, Until and some other function to delay in context, asynchronously with Promise, async/await
 
 ```
